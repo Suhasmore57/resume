@@ -1,2 +1,73 @@
-# resume
-my resume
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="view port" content="width=device-width,intial-scale=1.0">
+        <title>resume</title>
+        <link rel="stylesheet" href="resume.css">
+    </head>
+    <body>
+<div class="container">
+    <div class="profile">
+        <div class="profile_container">
+            <div class="profile_profileimg">
+                <img src="C:\Users\suhas\OneDrive\Documents\resume\DSC_0205(1).jpg" alt="image" class="center" height="auto" width="auto">
+                <div>
+                    <h1 class="profile_name">
+                        <span class="first_name">JAGANNATH </span>
+                        <span class="last_name">  MORE</span></h1>
+                    <P class="profile_title">Software Developer</P>
+                    <p class="description">hey my name is jagannath more im from solapur_maharashtra and im currently pursuing my degree of BCA in HN COLLAGE OF SOLAPUR </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group_1">
+        <div class="skills">
+            <h3 class="title">EXPERTISE</h3>
+             <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>C lang</li>
+             </ul>
+        </div>
+        <br>
+        <br>
+        <div class="skills">
+            <h3 class="title">CONTACT</h3>
+            <H2>9322427099</H2>
+            <H2>9881700317</H2>
+        </div>
+        <br>
+        <br>
+        <div class="skills">
+            <h3 class="title">EDUCATION</h3>
+            <H2>BCA-1 in HN Collage of solapur</H2>
+            <H3>2023-2024</H3>
+         </div>
+         <br>
+         <br>
+    <div class="group_2">
+        <div class="skills">
+            <h2 class="title">experience</h2>
+            <p class="description"> MS EXEL , WORD PRESS, POWER POINT,</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quam, numquam possimus eius necessitatibus beatae. Libero tempora eum, illo deleniti fugiat eos atque totam adipisci itaque, nesciunt consequuntur ipsa quam!</p>
+        </div>
+    </div>
+    <div class="group_3">
+        <div class="skills">
+            <h2 class="title">social media handles </h2>
+            <h3 class="description"> instagram _ @suhasmore57</h3>
+            <h3 class="description"> linkedin_ @suhasmore</h3>
+            <h3 class="description"> twitter_ @suhasmore57</h3>
+
+
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>
