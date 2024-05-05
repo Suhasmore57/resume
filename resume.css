@@ -1,0 +1,102 @@
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ :root{
+    --primary-color:#ff7613;
+    --text-color:  #727171;
+ }
+ html{
+    font-size:  20px;
+    align-items: center;
+ }
+ body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+ }
+
+ /*common style*/
+ 
+    
+ 
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+ }
+
+a{
+    text-decoration: none ;
+    color: white;
+ }
+
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem;
+    background: #070707;
+
+}
+
+@media only screen and (max-width: 768px)
+{
+    .container{
+        width:  100%;
+        padding: 3rem;
+        gap: 7rem;
+    }
+}
+.profile{
+    margin-bottom: 2rem;
+}
+
+/* profile */
+
+ .profile_profileimg{
+    max-width: 200px;
+}
+
+.first_name{
+    color:antiquewhite;
+    font-size:clamp(2rem, 6vw, 4rem);
+    text-transform: uppercase;
+    display:block;
+    margin-bottom: -0.8rem;
+}
+
+.last_name{
+    color : var(--primary-color);
+    font-weight: 400;
+    font-size: clamp(2rem, 5rem, 7rem);
+    text-transform: uppercase;
+    display: block;
+}
+
+.profile_title{
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+.title{
+    color : var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.skills{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.description{
+    text-align: justify;
+}
